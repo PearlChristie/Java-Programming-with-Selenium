@@ -1,0 +1,31 @@
+/* TestAutomationUniversity
+This program prompts the user to enter data and generates a complete sentence
+*/
+
+package chapter2;
+
+import java.util.Scanner;
+
+public class MadLibs {
+    public static void main(String arg[]){
+        Scanner scanner = new Scanner(System.in);
+
+        //1. Get the season
+        System.out.println("Enter a season of the year.");
+        String season = scanner.next();
+
+        //2. Get a whole number
+        System.out.println ("Enter a whole number.");
+        int number = scanner.nextInt();
+
+        //3. Get a adjective
+        System.out.println("Enter a adjective.");
+        String adjective = scanner.next();
+        scanner.close();
+
+        //4. Print out sentence
+        System.out.println ("On a " + adjective + " " + season + " day, I drink a minimum of " +
+                number + " cups of coffee.");
+
+    }
+}
