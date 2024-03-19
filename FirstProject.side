@@ -1,0 +1,72 @@
+{
+  "id": "889a3ef6-346d-4c5d-a23e-a47c0d24d81b",
+  "version": "2.0",
+  "name": "FirstProject",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "d5802e4e-286f-4b5a-afa2-d06ac6188f14",
+    "name": "Searchin28minutes",
+    "commands": [{
+      "id": "52926b05-95c0-4025-8514-ab37bbead8b3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e42c59a-045f-470b-9632-bb4631e51d60",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1076x1025",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3114e3a-a145-4628-9f08-0821f96cc181",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3ae3725-ae46-48bd-8940-8087534df429",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div:nth-child(2) > .tF2Cxc .LC20lb",
+      "targets": [
+        ["css=div:nth-child(2) > .tF2Cxc .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/div/span/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'in28minutes | 1 MILLION learners learning Programming, Cloud and ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c15a159-5a90-4dc8-9f47-ec470ee1af3e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=div:nth-child(2) > .tF2Cxc .LC20lb",
+      "targets": [
+        ["css=div:nth-child(2) > .tF2Cxc .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/div/span/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'in28minutes | 1 MILLION learners learning Programming, Cloud and ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3b0da16a-dc1f-4bd3-a88a-aed21ab5f2c6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d5802e4e-286f-4b5a-afa2-d06ac6188f14"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
